@@ -1,4 +1,4 @@
-![JavaScript Study V](https://d2aj9sy12tbpym.cloudfront.net/progate/shared/images/slide/es6/study/5/1581594565480.png "Progate")
+![JavaScript Study V](https://d2aj9sy12tbpym.cloudfront.net/progate/shared/images/slide/es6/study/5/1581594565480.png)
 
 # js_lesson_5
 JavaScript V
