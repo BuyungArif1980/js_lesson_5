@@ -1,7 +1,6 @@
-// Tulis ulang code dibawah and import constant dog1 dan dog2
-import { dog1, dog2 } from "./dogData";
+// Ubah jalur relatif "./dogData"
+import { dog1, dog2 } from "./data/dogData";
 
-// Salin code di jendela instruksi dan tulis ulang constant dog1 dan dog2 agar dapat dicetak
 console.log("---------");
 dog1.info();
 console.log("---------");
