@@ -1,4 +1,6 @@
-// Import class Animal dibawah baris ini
+// Import paket chalk
+import chalk from "chalk";
+
 import Animal from "./animal";
 
 class Dog extends Animal {
@@ -8,11 +10,16 @@ class Dog extends Animal {
   }
 
   info() {
-    this.greet();
-    console.log(`Nama saya adalah ${this.name}`);
-    console.log(`Saya adalah seekor ${this.breed}`);
-    console.log(`Saya berusia ${this.age} tahun`);
     const humanAge = this.getHumanAge();
+
+    this.greet();
+    // Tulis ulang konten dari console.log menggunakan chalk
+    console.log(chalk.yellow(`Nama saya adalah ${this.name}`));
+
+    // Tulis ulang konten dari console.log menggunakan chalk
+    console.log(chalk.bgCyan(`Saya adalah seekor ${this.breed}`));
+
+    console.log(`Saya berusia ${this.age} tahun`);
     console.log(`Saya berusia ${humanAge} tahun dalam umur manusia`);
   }
 
@@ -21,5 +28,4 @@ class Dog extends Animal {
   }
 }
 
-// Export class Dog dibawah baris ini
 export default Dog;
