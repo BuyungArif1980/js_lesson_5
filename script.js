@@ -1,5 +1,10 @@
-// Import class Dog dibawah baris ini
-import Dog from "./dog";
+// Hapus code dibawah
 
-const dog = new Dog("Leo", 4, "Chihuahua");
+
+
+// Hapus code diatas
+
+// Import constant dog
+import dog from "./dogData";
+
 dog.info();
