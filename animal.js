@@ -1,4 +1,3 @@
-// Salin definisi class Animal ke bagian dibawah ini
 class Animal {
   constructor(name, age) {
     this.name = name;
@@ -15,3 +14,6 @@ class Animal {
     console.log(`Saya berusia ${this.age} tahun`);
   }
 }
+
+// Export class Animal dibawah baris ini
+export default Animal;
